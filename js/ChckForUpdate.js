@@ -1,7 +1,7 @@
 const versionKey = 'GameVersion';
 const dbName = 'AudioMap';
 const storeName = 'cacheStore';
-const newVersion = '1.1'; 
+const newVersion = '1.2'; 
 
 async function getDB() {
     return new Promise((resolve, reject) => {
